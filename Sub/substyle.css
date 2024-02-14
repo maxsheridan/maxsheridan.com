@@ -155,16 +155,16 @@ h3 a, h2 a, h1 a {
 /*——Classes*/
 
 .dropcap {
-  color: #111;
-  float: left;
   font-family: "ABC Diatype", sans-serif;
   font-size: 7rem;
-  line-height: 4.5rem;
-  padding-top: 1rem;
-  padding-right: .5rem;;
   font-variation-settings: 'slnt' 0, 'MONO' 0;
   font-style: normal;
   font-weight: 800;
+  color: #111;
+  line-height: 4.5rem;
+  float: left;
+  padding-top: 1rem;
+  padding-right: .5rem;
 }
 
 .finger {
@@ -187,6 +187,19 @@ h3 a, h2 a, h1 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
     color: #111;
+}
+
+.twinkie {
+    max-width: 200px;
+} 
+
+@media screen and (max-width: 768px) {
+    .twinkie {
+        max-width: 150px;
+    } 
+}
+.twinkie-text:not(.fin) {
+    padding-bottom: clamp(3rem,5vw,4rem);
 }
 
 /*Features*/
