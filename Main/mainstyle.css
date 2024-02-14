@@ -1,0 +1,187 @@
+* {
+	overscroll-behavior: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body { 
+    color: transparent;
+    background-color: #111;
+    user-select: none;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+    text-size-adjust: none;
+  	-webkit-text-size-adjust: none;
+  	-moz-text-size-adjust: none;
+  	-ms-text-size-adjust: none;
+    background-image: url('/Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: 15%;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+    margin: 0;
+}   
+
+@font-face {
+    font-family: 'ABC Diatype';
+    src: url('/Type/ABCDiatype-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+   
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+img {
+	float: none;
+	margin: .75rem auto 0;
+    border-radius: 12px 12px 12px 12px;
+}
+
+p {
+    font-family: "ABC Diatype", sans-serif;
+	font-size: 1.4rem;
+    font-style: normal;
+	font-weight: 400;
+	font-variation-settings: 'slnt' 0, 'MONO' 0;
+    color: #fffefc;
+	line-height: 1.4;
+    margin-bottom: 0;
+}
+
+p a {
+	color: #fffefc;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	p {
+        font-size: 1.25rem;
+	}
+}
+
+h3 {
+	font-family: "Diatype Semi-Mono", monospace;
+	font-size: 1.2rem;
+    font-style: normal;
+	font-weight: 400;
+	font-variation-settings: 'slnt' 0, 'MONO' 0.5;
+    color: #fffefc;
+    font-style: normal;
+	line-height: 1.4;
+}
+
+h2 {
+	font-family: "ABC Diatype", sans-serif;
+    font-size: clamp(1.7rem,3.5vw,2.5rem);
+    font-style: normal;
+    font-weight: 400;
+    color: #fffefc;
+    font-variation-settings: 'slnt' 0, 'MONO' 0;
+	line-height: 1.2;
+    padding: 0 0 .15rem 0;
+    margin: 0;
+}
+
+h1 {
+	font-family: "ABC Diatype", sans-serif;
+    font-size: clamp(2.75rem,6vw,3.75rem); 
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings: 'slnt' 0, 'MONO' 0;
+    color: #fffefc;
+	line-height: 1.2;	
+    padding: 0 0 .25rem 0;
+    margin: 0;
+}
+
+h3 a, h2 a, h1 a {
+	color: #39ff14;
+    text-decoration: none;
+}
+
+.page {
+    padding: 1.5rem 1rem;
+    max-width: 47.5rem;
+}
+
+/*——IDs & Classes*/
+
+@media only screen and (min-width: 769px) {
+	#copyright {
+        position: fixed;
+        right: 1rem;
+        bottom: 2rem;
+        transform-origin: bottom right;
+        transform: rotate(90deg) translateY(50%);
+    }
+}   
+
+#stories h1 {
+    padding-top: clamp(3rem,5vw,4rem);
+}
+
+.no-link {
+	pointer-events: none;
+}
+
+/*Features*/
+
+/*——Blinking text*/
+
+.blink {
+    animation: 1.5s infinite blink;
+    -o-animation: 1.5s infinite blink;
+    -moz-animation: 1.5s infinite blink;
+    -webkit-animation: 1.5s infinite blink;
+    display: inline-block;
+}
+
+@keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+	}
+}    
+
+@-webkit-keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+	}
+}
+/*——Custom cursor*/
+
+ a,
+.hover-title {
+	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-hover.svg), auto !important;
+}
+
+html {
+	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-point.svg), auto;
+}
