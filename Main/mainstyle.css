@@ -59,6 +59,7 @@ p {
     color: #fffefc;
 	line-height: 1.4;
     margin-bottom: 0;
+    max-width: 47.5rem;
 }
 
 p a {
@@ -114,7 +115,6 @@ h3 a, h2 a, h1 a {
 
 .page {
     padding: 1.5rem 1rem;
-    max-width: 47.5rem;
 }
 
 /*——IDs & Classes*/
