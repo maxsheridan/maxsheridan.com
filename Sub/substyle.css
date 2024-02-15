@@ -131,7 +131,6 @@ blockquote {
     padding: 0;
     height: 100vh;
     width: 100%;
-    background: #fffefc;
 }
 
 .cover {
@@ -219,26 +218,7 @@ blockquote {
 
 /*Features*/
 
-/*——Image rotation*/
-
-.rotate {
-    display: flex;
-    animation: rotate 20s linear infinite;
-    -o-animation: rotate 20s linear infinite;
-    -moz-animation: rotate 20s linear infinite;
-    -webkit-animation: rotate 20s linear infinite;   
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-/*——Blinking text*/
+/*——Blink*/
 
 .blink {
     animation: 1.5s infinite blink;
