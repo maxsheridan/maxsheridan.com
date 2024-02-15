@@ -23,20 +23,28 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype';
-    src: url('/Type/ABCDiatype-Regular.woff2') format('woff2');
+    src: url('/Type/ABC_Diatype.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
+    font-family: 'ABC Diatype Bold';
+    src: url('/Type/ABC_Diatype_Bold.woff2') format('woff2');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'ABC Diatype Semi-Mono';
-    src: url('/Type/ABCDiatypeSemi-Mono-Regular.woff2') format('woff2');
+    src: url('/Type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-    
+
 i,
 em {
     font-style: italic;
@@ -59,7 +67,6 @@ p {
 	font-size: 1.4rem;
     font-style: normal;
 	font-weight: 400;
-	font-variation-settings: 'slnt' 0, 'MONO' 0;
     color: #111;
 	line-height: 1.4;
     margin-bottom: 0;
@@ -81,7 +88,6 @@ h3 {
 	font-size: 1.2rem;
     font-style: normal;
 	font-weight: 400;
-	font-variation-settings: 'slnt' 0, 'MONO' 0.5;
     color: #111;
     font-style: normal;
 	line-height: 1.4;
@@ -94,7 +100,6 @@ h2 {
     font-style: normal;
     font-weight: 400;
     color: #111;
-    font-variation-settings: 'slnt' 0, 'MONO' 0;
 	line-height: 1.2;
     padding: 0 0 .15rem 0;
     margin: 0;
@@ -105,7 +110,6 @@ h1 {
     font-size: clamp(2.75rem,4vw,3rem); 
     font-style: normal;
     font-weight: 400;
-    font-variation-settings: 'slnt' 0, 'MONO' 0;
     color: #111;
 	line-height: 1.2;	
     padding: 0 0 .25rem 0;
@@ -127,6 +131,7 @@ blockquote {
     padding: 0;
     height: 100vh;
     width: 100%;
+    background: #fffefc;
 }
 
 .cover {
