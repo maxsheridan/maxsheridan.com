@@ -28,8 +28,8 @@ body {
 }
 
 @font-face {
-    font-family: 'ABC Diatype Bold';
-    src: url('/Type/ABC_Diatype_Bold.woff2') format('woff2');
+    font-family: 'ABC Diatype Medium';
+    src: url('/Type/ABC_Diatype_Medium.woff2') format('woff2');
     font-weight: bolder;
     font-style: normal;
     font-display: swap;
@@ -104,10 +104,10 @@ h2 {
 }
 
 h1 {
-	font-family: "ABC Diatype", sans-serif;
+	font-family: "ABC Diatype Medium", sans-serif;
     font-size: clamp(2.75rem,4vw,3rem); 
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: #111;
 	line-height: 1.2;	
     padding: 0 0 .25rem 0;
@@ -178,13 +178,12 @@ blockquote {
 .dropcap {
   font-family: "ABC Diatype", sans-serif;
   font-size: 7rem;
-  font-variation-settings: 'slnt' 0, 'MONO' 0;
   font-style: normal;
   font-weight: 800;
   color: #111;
   line-height: 4.5rem;
   float: left;
-  padding-top: 1rem;
+  padding-top: .75rem;
   padding-right: .5rem;
 }
 
