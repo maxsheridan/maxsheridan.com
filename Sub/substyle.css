@@ -142,6 +142,8 @@ blockquote {
 
 .text-wrapper {
     padding: 2rem 1.5rem;
+    max-width: 45rem;
+    margin: auto;
 }
 
 .text {
@@ -154,15 +156,15 @@ blockquote {
         flex-direction: column;
     }
 
-    .cover, .text {
-        flex: 1;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .cover {
-        display: none !important;
+        flex: 0.3; /* 30% of the screen height */
+        height: 30vh; /* 30% of the screen height */
+        border-right: none; /* Remove the border for smaller screens if needed */
+    }
+
+    .text {
+        flex: 0.7; /* 70% of the screen height */
+        height: 70vh; /* 70% of the screen height */
     }
 }
 
@@ -171,7 +173,6 @@ blockquote {
 .title {
     font-family: "ABC Diaytpe Semi-Mono";
     font-weight: bold;
-    font-style:italic;
     font-size: 4rem;
 }
 
