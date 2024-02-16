@@ -135,9 +135,10 @@ blockquote {
     flex: 1;
     position: sticky;
     top: 0;
-    background: no-repeat center center; 
+    background: no-repeat center center fixed; 
     background-size: cover;
     border-right: 5px solid #111;
+    padding: 2rem 1.5rem;
  }
 
 .text-wrapper {
