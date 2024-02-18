@@ -54,9 +54,9 @@ strong {
 }
 
 hr {
-	background: black;
+	background: #111;
 	border: 0;
-	height: 1px;
+	height: 5px;
 	display: block;
 }
 
