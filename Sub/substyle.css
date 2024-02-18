@@ -151,7 +151,7 @@ blockquote {
     overflow: auto;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 @media (max-width: 768px) {
