@@ -40,6 +40,14 @@ body {
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ABC Diatype Semi-Mono';
+    src: url('/Type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 i,
 em {
     font-style: italic;
