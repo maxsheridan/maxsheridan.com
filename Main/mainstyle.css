@@ -131,7 +131,7 @@ h3 a, h2 a, h1 a {
     }
 }   
 
-#stories h1 {
+#writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
 }
 
