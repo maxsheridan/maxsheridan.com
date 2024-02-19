@@ -179,9 +179,8 @@ main {
 }
 /*——Custom cursor*/
 
-a,
-.hover-title {
-	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-hover.svg), auto !important;
+a:hover {
+	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-hover.svg), auto;
 }
 
 html {
