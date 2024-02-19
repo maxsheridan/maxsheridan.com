@@ -11,10 +11,10 @@ body {
     background-color: #fffefc;
     user-select: none;
     -webkit-user-select: none;
-	-moz-user-select: none;
+    -moz-user-select: none;
     text-size-adjust: none;
-  	-webkit-text-size-adjust: none;
-  	-moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
     z-index: 0;
     margin: 0;
 }   
@@ -137,8 +137,8 @@ main {
     top: 0;
     background: no-repeat center center; 
     background-size: cover;
-    border-right: 5px solid #111;
- }
+    border-right: 5px solid #111
+}
 
 .text-wrapper {
     padding: 2rem 1.5rem;
@@ -178,15 +178,15 @@ main {
 /*——Classes*/
 
 .dropcap {
-  font-family: "ABC Diatype", sans-serif;
-  font-size: 7rem;
-  font-style: normal;
-  font-weight: 800;
-  color: #111;
-  line-height: 4.5rem;
-  float: left;
-  padding-top: .75rem;
-  padding-right: .5rem;
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 800;
+    color: #111;
+    line-height: 4.5rem;
+    float: left;
+    padding-top: .75rem;
+    padding-right: .5rem;
 }
 
 .finger {
