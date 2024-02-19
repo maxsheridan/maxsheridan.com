@@ -13,8 +13,8 @@ body {
     -webkit-user-select: none;
 	-moz-user-select: none;
     text-size-adjust: none;
-  	-webkit-text-size-adjust: none;
-  	-moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
     background-image: url('/Images/Background.webp');
     background-repeat: no-repeat;
     background-position: 15%;
@@ -39,7 +39,7 @@ body {
     font-style: normal;
     font-display: swap;
 }
-   
+
 i,
 em {
     font-style: italic;
@@ -179,7 +179,7 @@ main {
 }
 /*——Custom cursor*/
 
- a,
+a,
 .hover-title {
 	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-hover.svg), auto !important;
 }
