@@ -52,6 +52,12 @@ strong {
 	font-weight: bolder;
 }
 
+img {
+	float: none;
+	margin: .75rem auto 0;
+    border-radius: 12px 12px 12px 12px;
+}
+
 p {
     font-family: "ABC Diatype", sans-serif;
 	font-size: 1.4rem;
@@ -117,7 +123,7 @@ main {
     background-position: 15%;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 100vh
 }
 
 .content {
@@ -150,6 +156,9 @@ main {
 
 .blink {
     animation: 1.5s infinite blink;
+    -o-animation: 1.5s infinite blink;
+    -moz-animation: 1.5s infinite blink;
+    -webkit-animation: 1.5s infinite blink;
     display: inline-block;
 }
 
@@ -157,19 +166,21 @@ main {
     0%, 15% {
         opacity: 0;
     }
-
     16%, 100% {
         opacity: 1;
     }
+}
 
+@-moz-keyframes blink {
     0%, 15% {
         opacity: 0;
     }
-
     16%, 100% {
         opacity: 1;
 	}
+}    
 
+@-webkit-keyframes blink {
     0%, 15% {
         opacity: 0;
     }
@@ -177,7 +188,6 @@ main {
         opacity: 1;
 	}
 }
-
 /*——Custom cursor*/
 
 a:hover {

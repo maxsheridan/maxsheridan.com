@@ -221,6 +221,9 @@ main {
 
 .blink {
     animation: 1.5s infinite blink;
+    -o-animation: 1.5s infinite blink;
+    -moz-animation: 1.5s infinite blink;
+    -webkit-animation: 1.5s infinite blink;
     display: inline-block;
 }
 
