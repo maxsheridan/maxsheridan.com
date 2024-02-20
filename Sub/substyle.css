@@ -155,7 +155,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    .page {
+    main {
         flex-direction: column;
     }
 
