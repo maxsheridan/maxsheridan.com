@@ -63,14 +63,14 @@ p {
 	font-size: 1.4rem;
     font-style: normal;
 	font-weight: 400;
-    color: #fffefc;
+    color: #FFFEFC;
 	line-height: 1.4;
     margin-bottom: 0;
     max-width: 47.5rem;
 }
 
 p a {
-	color: #fffefc;
+	color: #FFFEFC
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ h3 {
 	font-size: 1.2rem;
     font-style: normal;
 	font-weight: 400;
-    color: #fffefc;
+    color: #FFFEFC;
     font-style: normal;
 	line-height: 1.4;
 }
@@ -95,7 +95,7 @@ h2 {
     font-size: clamp(1.7rem,3.5vw,2.5rem);
     font-style: normal;
     font-weight: 400;
-    color: #fffefc;
+    color: #FFFEFC;
 	line-height: 1.2;
     padding: 0 0 .15rem 0;
     margin: 0;
@@ -106,14 +106,14 @@ h1 {
     font-size: clamp(2.75rem,6vw,3.75rem); 
     font-style: normal;
     font-weight: 600;
-    color: #fffefc;
+    color: #FFFEFC;
 	line-height: 1.2;	
     padding: 0 0 .25rem 0;
     margin: 0;
 }
 
 h3 a, h2 a, h1 a {
-	color: #39ff14;
+	color: #39FF14;
     text-decoration: none;
 }
 
