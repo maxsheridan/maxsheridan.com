@@ -299,9 +299,9 @@ main {
 /*——Custom cursor*/
 
 a:hover {
-	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-hover.svg), auto;
+	cursor: url(/Images/Graphics/Smiley_hover.svg), auto;
 }
 
 html {
-	cursor: url(https://files.cargocollective.com/c422266/Mr.-Smiley-point.svg), auto;
+	cursor: url(/Images/Graphics/Smiley_point.svg), auto;
 }
