@@ -15,11 +15,6 @@ body {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    background-image: url(/docs/assets/covers/background.webp);
-    background-repeat: no-repeat;
-    background-position: 15%;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 0;
 }   
 
@@ -118,7 +113,7 @@ h3 a, h2 a, h1 a {
 
 main {
     height: 100vh;
-    margin: auto;
+    width: auto;
 }
 
 .content {
