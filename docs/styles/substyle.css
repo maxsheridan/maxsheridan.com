@@ -296,9 +296,9 @@ main {
 /*——Custom cursor*/
 
 a:hover {
-	cursor: url(/Images/Graphics/Smiley_hover.svg), auto;
+	cursor: url(/docs/assets/graphics/smiley_hover.svg), auto;
 }
 
 html {
-	cursor: url(/Images/Graphics/Smiley_point.svg), auto;
+	cursor: url(/docs/assets/graphics/smiley_point.svg), auto;
 }
