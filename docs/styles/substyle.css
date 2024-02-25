@@ -1,5 +1,5 @@
 * {
-	overscroll-behavior: none;
+    overscroll-behavior: none;
 }
 
 html {
@@ -15,7 +15,6 @@ body {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    z-index: 0;
     margin: 0;
 }   
 
@@ -50,28 +49,28 @@ em {
 
 b,
 strong {
-	font-weight: bolder;
+    font-weight: bolder;
 }
 
 hr {
-	background: #111;
-	border: 0;
-	height: 5px;
-	display: block;
+    background: #111;
+    border: 0;
+    height: 5px;
+    display: block;
 }
 
 p {
     font-family: "ABC Diatype", sans-serif;
-	font-size: 1.4rem;
+    font-size: 1.4rem;
     font-style: normal;
-	font-weight: 400;
+    font-weight: 400;
     color: #111;
-	line-height: 1.4;
+    line-height: 1.4;
     margin-bottom: 0;
 }
 
 p a {
-	color: #111;
+    color: #111;
     text-decoration: none;
 }
 
@@ -82,46 +81,46 @@ p a {
 }
 
 h3 {
-	font-family: "ABC Diatype Semi-Mono", monospace;
-	font-size: 1.2rem;
+    font-family: "ABC Diatype Semi-Mono", monospace;
+    font-size: 1.2rem;
     font-style: normal;
-	font-weight: 400;
+    font-weight: 400;
     color: #111;
     font-style: normal;
-	line-height: 1.4;
+    line-height: 1.4;
     margin-bottom: 1rem;
 }
 
 h2 {
-	font-family: "ABC Diatype", sans-serif;
+    font-family: "ABC Diatype", sans-serif;
     font-size: clamp(1.75rem,4vw,2.25rem);
     font-style: normal;
     font-weight: 400;
     color: #111;
-	line-height: 1.2;
+    line-height: 1.2;
     padding: 0 0 .15rem 0;
     margin: 0;
 }
 
 h1 {
-	font-family: "ABC Diatype Medium", sans-serif;
+    font-family: "ABC Diatype Medium", sans-serif;
     font-size: clamp(2rem,4vw,2.5rem);
     font-style: normal;
     font-weight: 600;
     color: #111;
-	line-height: 1.2;	
+    line-height: 1.2;
     padding: 0 0 .25rem 0;
     margin: 0;
 }
 
 h3 a, h2 a, h1 a {
-	color: #111;
+    color: #111;
     text-decoration: none;
 }
 
 blockquote {
-	margin: 2rem auto;
-	padding: 0 .5rem 0 .5rem;
+    margin: 2rem auto;
+    padding: 0 .5rem 0 .5rem;
 }
 
 main {
@@ -141,9 +140,9 @@ main {
 }
 
 .text-wrapper {
-    padding: 2rem 1.5rem;
     max-width: 47.5rem;
     margin: auto;
+    padding: 2rem 1.5rem;
 }
 
 .text {
@@ -251,54 +250,12 @@ main {
 	}
 }
 
-/*——Hover image*/
-
-.hover-title {
-    display: inline;
-    pointer-events: auto;
-    cursor: pointer;
-}
-
-.hover-image {
-    visibility: hidden;
-}
-
-@media only screen and (min-width: 769px) {
-    .hover-title:hover + .hover-image {
-    visibility: visible;
-    pointer-events: none;
-    }
-}
-
-.hover-image {
-    display: flex;
-    position: fixed;
-    top: 90%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    pointer-events: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90vw;
-    height: 90vh;
-}
-
-.hover-image img {
-    max-width: 100% !important;
-    max-height: 100% !important;
-    width: auto !important;
-    height: auto !important;
-    margin-bottom: 0;
-}
-
 /*——Custom cursor*/
 
 a:hover {
-	cursor: url(/docs/assets/graphics/smiley_hover.svg), auto;
+    cursor: url(/docs/assets/graphics/smiley_hover.svg), auto;
 }
 
 html {
-	cursor: url(/docs/assets/graphics/smiley_point.svg), auto;
+    cursor: url(/docs/assets/graphics/smiley_point.svg), auto;
 }
