@@ -77,7 +77,7 @@ p a {
 @media only screen and (max-width: 768px) {
 	p {
         font-size: 1.25rem;
-	}
+    }
 }
 
 h3 {
