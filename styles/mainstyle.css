@@ -184,6 +184,7 @@ main {
 
 a:hover {
     cursor: url(/assets/graphics/smiley_hover.svg), auto;
+    z-index: 9999;
 }
 
 html {
