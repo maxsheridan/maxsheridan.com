@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype';
-    src: url('assets/type/ABC_Diatype.woff2') format('woff2');
+    src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype Medium';
-    src: url('assets/type/ABC_Diatype_Medium.woff2') format('woff2');
+    src: url('/assets/type/ABC_Diatype_Medium.woff2') format('woff2');
     font-weight: bolder;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype Semi-Mono';
-    src: url('assets/type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
+    src: url('/assets/type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -183,9 +183,9 @@ main {
 /*——Custom cursor*/
 
 a:hover {
-    cursor: url(assets/graphics/smiley_hover.svg), auto;
+    cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
 html {
-    cursor: url(assets/graphics/smiley_point.svg), auto;
+    cursor: url(/assets/graphics/smiley_point.svg), auto;
 }
