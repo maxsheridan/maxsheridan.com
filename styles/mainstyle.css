@@ -182,10 +182,10 @@ main {
 
 /*——Custom cursor*/
 
-a:hover {
+:hover {
     cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
-* {
+html {
     cursor: url(/assets/graphics/smiley_point.svg), auto;
 }
