@@ -112,7 +112,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    background-image: url("assets/covers/background.webp");
+    background-image: url("/assets/covers/background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
