@@ -183,9 +183,9 @@ main {
 /*——Custom cursor*/
 
 a:hover {
-    cursor: url(/docs/assets/graphics/smiley_hover.svg), auto;
+    cursor: url(assets/graphics/smiley_hover.svg), auto;
 }
 
 html {
-    cursor: url(/docs/assets/graphics/smiley_point.svg), auto;
+    cursor: url(assets/graphics/smiley_point.svg), auto;
 }
