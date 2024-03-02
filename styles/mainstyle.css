@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype';
-    src: url('/docs/assets/type/ABC_Diatype.woff2') format('woff2');
+    src: url('assets/type/ABC_Diatype.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype Medium';
-    src: url('/docs/assets/type/ABC_Diatype_Medium.woff2') format('woff2');
+    src: url('assets/type/ABC_Diatype_Medium.woff2') format('woff2');
     font-weight: bolder;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype Semi-Mono';
-    src: url('/docs/assets/type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
+    src: url('assets/type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -112,7 +112,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    background-image: url("/docs/assets/covers/background.webp");
+    background-image: url("assets/covers/background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
