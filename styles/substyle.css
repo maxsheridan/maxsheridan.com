@@ -8,7 +8,7 @@ html {
 
 body { 
     color: transparent;
-    background-color: #FFFEFC;
+    background: #FFFEFC;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -40,6 +40,14 @@ body {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+a:hover {
+    cursor: url(/assets/graphics/smiley_hover.svg), auto;
+}
+
+html {
+    cursor: url(/assets/graphics/smiley_point.svg), auto;
 }
 
 i,
@@ -248,14 +256,4 @@ main {
     16%, 100% {
         opacity: 1;
 	}
-}
-
-/*——Custom cursor*/
-
-a:hover {
-    cursor: url(/assets/graphics/smiley_hover.svg), auto;
-}
-
-html {
-    cursor: url(/assets/graphics/smiley_point.svg), auto;
 }
