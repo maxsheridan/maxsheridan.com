@@ -42,12 +42,12 @@ body {
     font-display: swap;
 }
 
-a {
-    cursor: url(/assets/graphics/smiley_hover.svg), auto;
-}
-
 html {
     cursor: url(/assets/graphics/smiley_point.svg), auto;
+}
+
+a:hover {
+    cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
 i,
