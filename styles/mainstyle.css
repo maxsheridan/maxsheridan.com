@@ -126,10 +126,8 @@ main {
     background-size: cover;
     background-position: center;
     background-position-x: 15%;
-    display: flex;
     height: 100vh;
     max-width: 100%;
-    overflow: auto;
 }
 
 .content {
