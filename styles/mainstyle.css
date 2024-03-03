@@ -42,7 +42,7 @@ body {
     font-display: swap;
 }
 
-main a:hover {
+a {
     cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
