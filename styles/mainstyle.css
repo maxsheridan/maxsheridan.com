@@ -68,7 +68,6 @@ p {
     color: #FFFEFC;
     line-height: 1.4;
     margin-bottom: 0;
-    max-width: 47.5rem;
 }
 
 p a {
@@ -131,6 +130,7 @@ main {
 }
 
 .content {
+    max-width: 47.5rem;
     padding: 1.5rem 1rem;
 }
 
