@@ -7,21 +7,19 @@ html {
 }
 
 body { 
-    color: transparent;
-    background: #111;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    margin: 0;
     background-image: url(/assets/covers/background.webp); 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
     background-position: center; 
     background-position-x: 15%;
+    margin: 0;
 }   
 
 @font-face {
@@ -127,6 +125,7 @@ h3 a, h2 a, h1 a {
 main {
     height: 100vh;
     max-width: 100%;
+    background-color: #111;
 }
 
 .content {
