@@ -1,6 +1,5 @@
 * {
     overscroll-behavior: none;
-    -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -119,6 +118,7 @@ h1 {
     line-height: 1.2;
     padding: 0 0 .25rem 0;
     margin: 0;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 h3 a, h2 a, h1 a {
