@@ -11,7 +11,7 @@ body {
     background-image: url(/assets/covers/background.webp); 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    background-size: auto; 
+    background-size: cover; 
     background-position: center; 
     background-position-x: 15%;
     margin: 0;
