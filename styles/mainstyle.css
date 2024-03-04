@@ -124,6 +124,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
+    background-color: transparent;
     height: 100vh;
     max-width: 100%;
 }
