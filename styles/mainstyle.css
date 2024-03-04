@@ -3,11 +3,11 @@
 }
 
 html {
+    background: #111;
     font-size: 16px;
 }
 
 body { 
-    background: #111;
     background-image: url(/assets/covers/background.webp);
     background-repeat: no-repeat; 
     background-attachment: fixed; 
