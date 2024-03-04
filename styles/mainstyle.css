@@ -24,14 +24,6 @@ body {
     -moz-text-size-adjust: none;
 }   
 
-@media screen and (orientation:portrait) {
-    /* Portrait styles */
-    body {
-      background-image: url(...);
-      background-size: auto 100%;
-    }
-}
-
 @font-face {
     font-family: 'ABC Diatype';
     src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
