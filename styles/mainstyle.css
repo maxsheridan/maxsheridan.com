@@ -7,19 +7,19 @@ html {
 }
 
 body { 
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    background-image: url(assets/covers/background.webp);
+    background-image: url(/assets/covers/background.webp);
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
     background-position: center; 
     background-position-x: 15%;
     margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
 }   
 
 @font-face {
