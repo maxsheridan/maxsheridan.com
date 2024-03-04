@@ -23,27 +23,11 @@ body {
 }   
 
 @font-face {
-    font-family: 'ABC Diatype';
-    src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
+    font-family: 'open-arrow';
+    src: url('path-to-font-file/OpenArrow-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ABC Diatype Medium';
-    src: url('/assets/type/ABC_Diatype_Medium.woff2') format('woff2');
-    font-weight: bolder;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ABC Diatype Semi-Mono';
-    src: url('/assets/type/ABC_Diatype_Semi-Mono.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    unicode-range: U+2190-21ff;
 }
 
 html {
@@ -65,7 +49,7 @@ strong {
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: open-arrow, Helvetica, sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
