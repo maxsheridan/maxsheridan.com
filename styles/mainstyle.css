@@ -7,7 +7,6 @@ html {
 }
 
 body { 
-    display: block;
     background-color: #111;
     background-image: url(/assets/covers/background.webp);
     background-repeat: no-repeat;
