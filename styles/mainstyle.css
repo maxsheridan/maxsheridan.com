@@ -8,15 +8,13 @@ html {
 
 body { 
     background-color: #111;
-    background-image: url(/assets/covers/background.webp);
+    background-image: url(/assets/background.webp);
     background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    min-width: 100%;
-    min-height: 100vh;
+    background-position: center; 
+    background-position-x: 15%;
     margin: 0;
-    padding: 0;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
