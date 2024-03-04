@@ -7,7 +7,6 @@ html {
 }
 
 body { 
-    color: transparent;
     background: #FFFEFC;
     user-select: none;
     -webkit-user-select: none;
