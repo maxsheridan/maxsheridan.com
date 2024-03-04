@@ -6,7 +6,6 @@ html {
     font-size: 16px;
 }
 
-html,
 body { 
     background-color: #111;
     background-image: url(/assets/covers/background.webp);
@@ -15,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-position-x: 15%;
-    max-width: 100%;
+    width: 100%;
     margin: 0;
     user-select: none;
     -webkit-user-select: none;
@@ -24,6 +23,14 @@ body {
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
 }   
+
+@media screen and (orientation:portrait) {
+    /* Portrait styles */
+    body {
+      background-image: url(...);
+      background-size: auto 100%;
+    }
+}
 
 @font-face {
     font-family: 'ABC Diatype';
