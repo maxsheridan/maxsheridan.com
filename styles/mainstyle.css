@@ -129,11 +129,6 @@ h3 a, h2 a, h1 a {
     text-decoration: none;
 }
 
-main {
-    height: 100%;
-    width: 100%;
-}
-
 .content {
     padding: 1.5rem 1rem;
 }
