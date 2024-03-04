@@ -7,14 +7,13 @@ html {
 }
 
 body { 
-    background-color: transparent;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    background-image: url(/assets/covers/background.webp); 
+    background-image: url(/assets/covers/background.webp) !important; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
@@ -124,7 +123,6 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    background-color: transparent;
     height: 100vh;
     max-width: 100%;
 }
