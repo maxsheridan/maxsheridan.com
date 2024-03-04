@@ -25,6 +25,12 @@ body {
     -moz-text-size-adjust: none;
 }   
 
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain;
+    }   
+}
+
 @font-face {
     font-family: 'ABC Diatype';
     src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
@@ -131,7 +137,6 @@ h3 a, h2 a, h1 a {
 
 main {
     height: 100vh;
-    width: auto;
 }
 
 /*——IDs & Classes*/
