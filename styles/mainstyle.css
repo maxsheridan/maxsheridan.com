@@ -25,6 +25,13 @@ body {
     -moz-text-size-adjust: none;
 }   
 
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    /* Chrome on Android styles here */
+    body {
+        background-size: auto; /* or any other adjustments */
+    }
+}
+
 @font-face {
     font-family: 'ABC Diatype';
     src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
