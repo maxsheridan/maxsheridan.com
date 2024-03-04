@@ -197,7 +197,7 @@ main {
 }
 
 .finger {
-    font-family: monospace;
+    font-family: math;
     font-size: 3rem;
     text-align: center;
     color: #111;
@@ -205,7 +205,7 @@ main {
 }
 
 .coda {
-    font-family: monospace;
+    font-family: math;
     font-size: 3rem;
     text-align: center;
     color: #111;
@@ -213,7 +213,7 @@ main {
 }
 
 .skull {
-    font-family: monospace;
+    font-family: math;
     font-size: 4rem;
     color: #111;
 }
