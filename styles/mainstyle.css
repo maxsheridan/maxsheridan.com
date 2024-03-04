@@ -12,7 +12,7 @@ body {
     background-image: url(/assets/covers/background.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100vh 100%vw;
+    background-size: cover;
     background-position: center;
     background-position-x: 15%;
     min-height: 100vh;
