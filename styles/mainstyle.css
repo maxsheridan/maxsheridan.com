@@ -23,7 +23,7 @@ body {
 }   
 
 @font-face {
-    font-family: 'open-arrow';
+    font-family: "open-arrow";
     src: url('path-to-font-file/OpenArrow-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
