@@ -5,6 +5,11 @@
 
 html {
     font-size: 16px;
+    cursor: url(/assets/graphics/smiley_point.svg), auto;
+}
+
+html a:hover {
+    cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
 body { 
@@ -40,14 +45,6 @@ body {
     src: url('/assets/type/ABC_Diatype_Medium.woff2') format('woff2');
     font-style: 500;
     font-display: swap;
-}
-
-html {
-    cursor: url(/assets/graphics/smiley_point.svg), auto;
-}
-
-a:hover {
-    cursor: url(/assets/graphics/smiley_hover.svg), auto;
 }
 
 p {
