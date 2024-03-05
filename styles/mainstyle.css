@@ -166,10 +166,6 @@ main {
     pointer-events: none;
 }
 
-p.no-margin {
-    margin-bottom: 0;
-}
-
 /*Features*/
 
 /*——Blink*/
