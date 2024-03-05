@@ -122,9 +122,9 @@ h3 a, h2 a, h1 a {
     color: #39FF14;
     text-decoration: none;
 }
+
 main {
-    height: 100vh;
-    width: auto;
+    flex: 1;
     overflow: hidden;
 }
 
@@ -133,7 +133,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    max-height: 100%;
     padding: 1.5rem 1rem;
 }
 
