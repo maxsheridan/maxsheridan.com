@@ -124,7 +124,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    flex: 1;
+    height: 100%;
     overflow: hidden;
 }
 
