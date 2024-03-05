@@ -130,9 +130,11 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
+    display: flex;
+    align-items: flex-end /*!vertical_bottom*/;
+    -webkit-align-items: flex-end /*!vertical_bottom*/;
+    margin-left: auto /*!content_right*/;
+    margin-right: 0 /*!content_right*/;
 }
 
 .content {
