@@ -88,6 +88,7 @@ p {
     line-height: 1.4;
     margin-top: 1rem;
     max-width: 48rem;
+    margin-bottom: 0;
 }
 
 p a {
@@ -166,12 +167,7 @@ h3 a, h2 a, h1 a {
 
 #writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
-}
 
-@media screen and (min-width: 769px) {
-    p.no-margin {
-        margin-bottom: 0;
-    }     
 }
 
 .no-link {
