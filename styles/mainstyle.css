@@ -136,13 +136,6 @@ h3 a, h2 a, h1 a {
     text-decoration: none;
 }
 
-main {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 1.5rem 1rem;
-}
-
 .content {
     position: relative;
     display: flex;
