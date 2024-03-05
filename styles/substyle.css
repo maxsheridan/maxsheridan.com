@@ -126,7 +126,7 @@ blockquote {
     padding: 0 .5rem 0 .5rem;
 }
 
-main {
+.page {
     display: flex;
     padding: 0;
     height: 100vh;
@@ -157,7 +157,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    main {
+    .page {
         flex-direction: column;
     }
 
