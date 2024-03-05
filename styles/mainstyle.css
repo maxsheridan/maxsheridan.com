@@ -206,8 +206,15 @@ main {
 
 @media screen and (min-width: 769px) {
     #writing .stuff:last-child  {
-        align-self: self-end;
-        margin-bottom: -3rem;
+        align-self: flex-end;
+
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #writing .stuff:last-child p  {
+        margin-left: -8rem;
+
     }
 }
 
