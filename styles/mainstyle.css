@@ -127,7 +127,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .content {
@@ -154,10 +154,6 @@ main {
 #writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
 
-}
-
-#writing .content {
-    height: 100%;
 }
 
 .no-link {
