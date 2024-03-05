@@ -126,12 +126,16 @@ h3 a, h2 a, h1 a {
     text-decoration: none;
 }
 
+main {
+    min-height: 100vh;
+}
+
 .content {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     padding: 1.5rem 1rem;
 }
 
@@ -150,6 +154,10 @@ h3 a, h2 a, h1 a {
 #writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
 
+}
+
+#writing .content {
+    height: 100%;
 }
 
 .no-link {
