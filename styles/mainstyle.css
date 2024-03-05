@@ -1,5 +1,7 @@
 * {
-    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,8 +17,8 @@ body {
     background-position: center;
     background-position-x: 15%;
     min-height: 100vh;
+    width: 100%;
     margin: 0;
-    padding: 0;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -73,7 +75,7 @@ p {
     font-style: normal;
     color: #FFFEFC;
     line-height: 1.4;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     max-width: 48rem;
 }
 
@@ -129,17 +131,12 @@ h3 a, h2 a, h1 a {
     padding: 1.5rem 1rem;
 }
 
-main {
-    height: 100vh;
-    margin: auto;
-}
-
 /*——IDs & Classes*/
 
 @media only screen and (min-width: 769px) {
     #copyright {
         position: fixed;
-        right: 1rem;
+        right: 2.06rem;
         bottom: 2rem;
         transform-origin: bottom right;
         transform: rotate(90deg) translateY(50%);
