@@ -130,17 +130,15 @@ h3 a, h2 a, h1 a {
 }
 
 .page {
-    display: flex;
-    padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    overflow-x: hidden !important;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     padding: 1.5rem 1rem;
 } 
 
@@ -190,6 +188,10 @@ h3 a, h2 a, h1 a {
         padding-top: 1rem;
     }
 } 
+
+#writing .content {
+    height: 100%;
+}
 
 #writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
