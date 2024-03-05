@@ -21,12 +21,6 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
 }   
 
 @font-face {
