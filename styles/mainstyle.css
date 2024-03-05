@@ -10,18 +10,27 @@ html {
 }
 
 body { 
-    display: block;
     background-color: #111;
-    background-image: url(/assets/covers/background.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-position-x: 15%;
-    height: 100%;
     width: 100%;
+    min-height: 100vh;
     margin: 0;
 }   
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/assets/covers/background.webp') no-repeat center center fixed;
+    background-size: cover;
+    background-position-x: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#writing .background {
+    height: 100%;
+}
 
 @font-face {
     font-family: 'ABC Diatype';
@@ -123,21 +132,13 @@ h3 a, h2 a, h1 a {
     text-decoration: none;
 }
 
-main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
 .content {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
     padding: 1.5rem 1rem;
 }
 
