@@ -207,13 +207,7 @@ main {
 @media screen and (min-width: 769px) {
     #writing .stuff:last-child  {
         align-self: flex-end;
-
-    }
-}
-
-@media screen and (min-width: 769px) {
-    #writing .stuff:last-child p  {
-        margin-left: -8rem;
+        width: 130px;
 
     }
 }
