@@ -1,20 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     overscroll-behavior: none;
 }
 
 html {
+    position: relative;
     font-size: 16px;
 }
 
 body { 
     background-color: #111;
-    width: 100%;
-    min-height: 100vh;
     margin: 0;
 }   
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 .background {
     position: relative;
@@ -163,6 +166,12 @@ h3 a, h2 a, h1 a {
 
 #writing h1 {
     padding-top: clamp(3rem,5vw,4rem);
+}
+
+@media screen and (min-width: 769px) {
+    p.no-margin {
+        margin-bottom: 0;
+    }     
 }
 
 .no-link {
