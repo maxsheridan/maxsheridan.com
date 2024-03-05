@@ -209,6 +209,12 @@ blockquote {
     margin: 4rem auto 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .links {
+        padding-bottom: 2rem;
+    }
+}
+
 .skull {
     font-family: system-ui, sans-serif;
     font-size: 4rem;
