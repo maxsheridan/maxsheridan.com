@@ -123,8 +123,8 @@ h3 a, h2 a, h1 a {
     text-decoration: none;
 }
 main {
-        height: 100vh;
-        width: auto;
+    height: 100vh;
+    width: auto;
 }
 
 .content {
