@@ -12,12 +12,6 @@ html {
 body { 
     display: block;
     background-color: #111;
-    background-image: url(/assets/covers/background.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-position-x: 15%;
     min-height: 100vh;
     width: 100%;
     margin: 0;
