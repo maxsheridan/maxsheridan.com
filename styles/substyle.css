@@ -15,7 +15,6 @@ body {
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
 }   
 
 @font-face {
@@ -57,7 +56,7 @@ em {
 
 b,
 strong {
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 hr {
