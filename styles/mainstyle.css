@@ -163,6 +163,10 @@ main {
     pointer-events: none;
 }
 
+#writing .content {
+    height: 100%;
+}
+
 /*Features*/
 
 /*——Blink*/
