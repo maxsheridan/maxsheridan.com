@@ -125,6 +125,7 @@ h3 a, h2 a, h1 a {
 main {
     height: 100vh;
     width: auto;
+    overflow: hidden;
 }
 
 .content {
