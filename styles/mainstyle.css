@@ -206,7 +206,7 @@ h3 a, h2 a, h1 a {
     }
 }
 
-a.no-link {
+.no-link {
     pointer-events: none;
 }
 
