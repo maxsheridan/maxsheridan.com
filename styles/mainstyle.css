@@ -131,6 +131,7 @@ h3 a, h2 a, h1 a {
 
 main {
     display: flex;
+    position: relative;
     align-items: flex-end /*!vertical_bottom*/;
     -webkit-align-items: flex-end /*!vertical_bottom*/;
     margin-left: auto /*!content_right*/;
