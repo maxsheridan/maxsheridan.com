@@ -130,17 +130,19 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    display: flex;
-    position: relative;
-    align-items: flex-end /*!vertical_bottom*/;
-    -webkit-align-items: flex-end /*!vertical_bottom*/;
-    margin-left: auto /*!content_right*/;
-    margin-right: 0 /*!content_right*/;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     max-width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
     padding: 1.5rem 1rem;
 }
 
@@ -162,6 +164,10 @@ main {
 
 .no-link {
     pointer-events: none;
+}
+
+p.no-margin {
+    margin-bottom: 0;
 }
 
 /*Features*/
