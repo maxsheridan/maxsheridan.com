@@ -199,7 +199,7 @@ blockquote {
     font-size: clamp(2rem,6vw,2.5rem);
     color: #111;
     margin-top: 1rem;
-	vertical align: sub;
+	vertical-align: sub;
 }
 
 .coda {
