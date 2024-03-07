@@ -189,7 +189,7 @@ blockquote {
     color: #111;
     line-height: 4.5rem;
     float: left;
-    padding: .75rem .5rem .5rem 0rem;
+    padding: .75rem .5rem .75rem 0rem;
 }
 
 .finger {
@@ -200,13 +200,13 @@ blockquote {
 .coda {
     text-align: center;
     color: #111;
-    margin: 4.5rem auto 0 auto;
+    padding: 4rem 0;
 }
 
 @media screen and (max-width: 768px) {
     .coda img {
-        height: 35px;
-        width: 24.4px;
+        height: 36px;
+        width: 25px;
     }
 }
 
@@ -218,8 +218,8 @@ blockquote {
 
 .skull {
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: clamp(1rem, 3vw, 1.5rem);
+    padding-bottom: 1.5rem;
 }
 
 .twinkie-text:not(.fin) {
