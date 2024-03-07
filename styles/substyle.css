@@ -73,7 +73,7 @@ p {
     font-style: normal;
     color: #111;
     line-height: 1.4;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 p a {
@@ -191,7 +191,13 @@ blockquote {
     line-height: 4.5rem;
     float: left;
     padding-top: .75rem;
+    padding-bottom: .5rem;
     padding-right: .5rem;
+}
+
+.finger {
+    text-align: center;
+    padding: 3rem 0;
 }
 
 .coda {
