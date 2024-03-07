@@ -214,9 +214,9 @@ blockquote {
 }
 
 .skull {
-    font-family: sans-serif;
-    font-size: 4rem;
-    color: #111;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .twinkie-text:not(.fin) {
