@@ -219,7 +219,7 @@ blockquote {
 .skull {
     text-align: center;
     padding-top: clamp(1rem, 3vw, 1.5rem);
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .twinkie-text:not(.fin) {
