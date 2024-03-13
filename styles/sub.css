@@ -161,7 +161,7 @@ blockquote {
 
 @media screen and (min-width: 769px) {
     #ncmg .text {
-        align-items: center;
+        align-items: stretch;
     }
 }
 
