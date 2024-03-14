@@ -180,7 +180,10 @@ blockquote {
 
     .text-wrapper {
         margin: auto 0;
-        padding: 3rem 1.5rem 6rem 1.5rem;
+    }
+
+    .links {
+        padding-bottom: 3rem;
     }
 }
 
