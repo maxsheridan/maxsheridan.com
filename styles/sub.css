@@ -145,13 +145,6 @@ blockquote {
     border-right: 5px solid #111
 }
 
-.text-wrapper {
-    max-width: 47.5rem;
-    overflow: auto;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-}
-
 .text {
     flex: 1;
     display: flex;
@@ -159,9 +152,15 @@ blockquote {
     padding: 1.5rem 0;
 }
 
-@media screen and (min-width: 769px) {
+.text-wrapper {
+    max-width: 47.5rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+@media screen and (min-height: 941px) {
     #ncmg .text {
-        align-items: stretch;
+        align-items: center;
     }
 }
 
