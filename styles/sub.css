@@ -175,10 +175,11 @@ blockquote {
 
     .text {
         flex: 0.6;
+        height: auto;
     }
 
     .text-wrapper {
-        height: 100%;
+        margin: auto;
     }
 }
 
