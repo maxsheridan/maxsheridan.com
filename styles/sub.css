@@ -131,8 +131,8 @@ blockquote {
 
 .page {
     display: flex;
-    height: 100vh;
     width: 100%;
+    height: 100%;
     padding: 0;
 }
 
@@ -140,28 +140,24 @@ blockquote {
     flex: 1;
     position: sticky;
     top: 0;
+    height: 100vh;
     background: no-repeat center center; 
     background-size: cover;
-    border-right: 5px solid #111
+    border-right: 5px solid #111;
 }
 
 .text {
     flex: 1;
     display: flex;
-    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
     padding: 1.5rem 0;
 }
 
 .text-wrapper {
     max-width: 47.5rem;
-    margin: 0 auto;
     padding: 2rem 1.5rem;
-}
-
-@media screen and (min-height: 941px) {
-    #ncmg .text {
-        align-items: center;
-    }
 }
 
 /*Mobile*/
@@ -169,21 +165,20 @@ blockquote {
 @media (max-width: 768px) {
     .page {
         flex-direction: column;
+        height: 100vh;
     }
 
     .cover {
         flex: 0.45;
         height: 45vh;
         border-right: none;
+        border-bottom: 5px solid #111;
     }
 
     .text {
         flex: 0.55;
         height: 55vh;
-    }
-
-    .cover {
-        border-bottom: 5px solid #111;
+        align-items: unset;
     }
 }
 
