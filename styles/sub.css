@@ -156,7 +156,7 @@ blockquote {
 
 .text-wrapper {
     max-width: 47.5rem;
-    padding: 3rem 1.5rem; 
+    padding: 3rem 1.5rem;
 }
 
 /*Mobile*/
@@ -179,7 +179,8 @@ blockquote {
     }
 
     .text-wrapper {
-        margin: auto;
+        margin: auto 0;
+        padding: 3rem 1.5rem 6rem 1.5rem;
     }
 }
 
