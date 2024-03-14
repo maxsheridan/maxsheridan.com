@@ -154,9 +154,14 @@ blockquote {
 
 .text-wrapper {
     max-width: 47.5rem;
-    min-height: 100vh;
     margin: 0 auto;
     padding: 2rem 1.5rem;
+}
+
+@media screen and (min-height: 941px) {
+    #ncmg .text {
+        align-items: center;
+    }
 }
 
 /*Mobile*/
