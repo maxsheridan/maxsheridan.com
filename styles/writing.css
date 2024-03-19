@@ -63,6 +63,10 @@ p a {
     text-decoration: none;
 }
 
+.no-link {
+    pointer-events: none;
+}
+
 @media only screen and (max-width: 768px) {
     p {
         font-size: 1.25rem;
@@ -96,7 +100,6 @@ h2 a, h1 a {
 }
 
 .content {
-    height: 100%;
     padding: 1.5rem 1rem;
 }
 
@@ -109,10 +112,6 @@ h2 a, h1 a {
         transform: rotate(90deg) translateY(50%);
     }
 }   
-
-.no-link {
-    pointer-events: none;
-}
 
 /*——Blink*/
 
