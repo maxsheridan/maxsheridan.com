@@ -116,31 +116,26 @@ h2 a {
 /*——Blink*/
 
 .blink {
-    animation: 1.5s infinite blink;
-    display: inline-block;
+    animation: 1s infinite blink;
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes blink {
     0%, 15% {
         opacity: 0;
     }
-
     16%, 100% {
         opacity: 1;
     }
+}
 
-    0%, 15% {
-        opacity: 0;
-    }
-
-    16%, 100% {
-        opacity: 1;
-	}
-
+@-webkit-keyframes blink {
     0%, 15% {
         opacity: 0;
     }
     16%, 100% {
         opacity: 1;
-	}
+    }
 }
