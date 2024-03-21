@@ -133,3 +133,28 @@ h2 a {
         opacity: 1;
 	}
 }
+
+@-webkit-keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+
+    16%, 100% {
+        opacity: 1;
+    }
+
+    0%, 15% {
+        opacity: 0;
+    }
+
+    16%, 100% {
+        opacity: 1;
+	}
+
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+	}
+}

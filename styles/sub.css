@@ -233,6 +233,7 @@ hr {
 
 .blink {
     animation: 1.5s infinite blink;
+    -webkit-animation: 1.5s infinite blink;
     display: inline-block;
 }
 
@@ -240,21 +241,44 @@ hr {
     0%, 15% {
         opacity: 0;
     }
+
     16%, 100% {
         opacity: 1;
     }
-}
 
-@-moz-keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+
+    16%, 100% {
+        opacity: 1;
+	}
+
     0%, 15% {
         opacity: 0;
     }
     16%, 100% {
         opacity: 1;
 	}
-}    
+}
 
 @-webkit-keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+
+    16%, 100% {
+        opacity: 1;
+    }
+
+    0%, 15% {
+        opacity: 0;
+    }
+
+    16%, 100% {
+        opacity: 1;
+	}
+
     0%, 15% {
         opacity: 0;
     }
