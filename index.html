@@ -4,8 +4,8 @@
         <meta charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
         <meta name="color-scheme" content="light only">
-        <link rel="preload" href="/styles/main.css" as="style">
         <link rel="preload" href="/assets/covers/background.webp">
+        <link rel="preload" href="/styles/main.css" as="style">
         <link rel="preload" href="/assets/graphics/ms_logo.webp">
         <link rel="preload" href="/assets/type/ABC_Diatype.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/assets/graphics/smiley_hover.svg" as="image">
@@ -25,10 +25,7 @@
     </head>
     <body>
         <main>
-            <div id="home" class="page" style="height: 100%;">
-                <div class="background" style="height: 100%;">
-                    <img src="/assets/covers/background.webp" id="image" style="object-fit: cover; object-position: bottom left; width: 100%; height: 100%; transition: transform 0.5s ease;">
-                </div>
+            <div id="home" class="page" style="background-image: url('/assets/covers/background.webp'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; background-position-x: 15%; width: 100%; height: 100%;">
                 <div class="content">
                     <div class="content-inner" style="position: fixed; top: 0; left: 0">
                         <img src="/assets/graphics/ms_logo.webp" alt="logo" height="55px" width="55px">
