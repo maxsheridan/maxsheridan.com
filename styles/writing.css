@@ -105,6 +105,7 @@ h2 a {
 
 .blink {
     animation: 1.5s infinite blink;
+    -webkit-animation: 1.5s infinite blink;
     display: inline-block;
 }
 
