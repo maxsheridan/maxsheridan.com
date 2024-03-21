@@ -39,6 +39,7 @@ html a:hover {
 
 body { 
     background-color: #111;
+    overflow-y: hidden;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
