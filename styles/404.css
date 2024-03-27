@@ -38,14 +38,16 @@ html a:hover {
 }
 
 body { 
-    background-color: #111;
+    background: url('/assets/covers/background.webp') no-repeat 15% center/cover; 
+    height: 100vh;
+    background-color: transparent;
+    overflow-y: hidden;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    overflow-y: hidden;
 }   
 
 main {
