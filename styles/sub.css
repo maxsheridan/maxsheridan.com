@@ -48,12 +48,7 @@ body {
     -moz-text-size-adjust: none;
     margin: 0;
     padding: 0;
-}  
-
-body::after {
-    display: none;
-    content: url('/assets/covers/cage.webp') url('/assets/covers/corney.webp') url('/assets/covers/geller.webp') url('/assets/covers/kindness.webp') url('/assets/covers/kotziamanis.webp') url('/assets/covers/lucious_bride.webp') url('/assets/covers/twinkie_eater.webp') url('/assets/covers/utopos.webp');
-}
+} 
 
 .page {
     display: flex;
