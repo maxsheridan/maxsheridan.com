@@ -55,18 +55,23 @@ main {
     overflow: hidden;
 }
 
-.content {
+.page {
     display: flex; 
-    flex-direction: column; 
     justify-content: center; 
     align-items: center; 
     text-align: center; 
     height: 100vh;
 }
 
-.content-inner {
-    padding: 1.5rem 1rem;
-}  
+.content {
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        padding: 1.5rem 1rem;
+    }
+} 
 
 p {
     font-family: 'ABC Diatype', sans-serif;
