@@ -62,9 +62,40 @@ body {
     position: sticky;
     top: 0;
     height: 100vh;
-    background: no-repeat center center; 
-    background-size: cover;
+    background: no-repeat center center/cover;
     border-right: 5px solid #111;
+}
+
+#tdc .cover {
+    background-image: url('/assets/covers/twinkie_eater.webp');
+}
+
+#ncmg .cover {
+    background-image: url('/assets/covers/cage.webp')
+}
+
+#dreaming-of-the-colossus .cover {
+    background-image: url('/assets/covers/kotziamanis.webp')
+}
+
+#free-love-after-the-apocalypse .cover {
+    background-image: url('/assets/covers/utopos.webp')
+}
+
+#let-us-now-praise-abnormal-men .cover {
+    background-image: url('/assets/covers/geller.webp')
+}
+
+#a-kindness .cover {
+    background-image: url('/assets/covers/kindness.webp')
+}
+
+#state-of-the-union .cover {
+    background-image: url('/assets/covers/corney.webp')
+}
+
+#syrian-shitfest-2 .cover {
+    background-image: url('/assets/covers/lucious_bride.webp')
 }
 
 .text {
