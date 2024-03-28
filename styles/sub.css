@@ -62,7 +62,6 @@ body {
     position: sticky;
     top: 0;
     height: 100vh;
-    background: no-repeat center center/cover;
     border-right: 5px solid #111;
 }
 
