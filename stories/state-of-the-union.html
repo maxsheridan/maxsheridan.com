@@ -5,11 +5,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
         <meta name="color-scheme" content="light only">
-        <style>
-            .cover {
-                background: url('/assets/covers/corney.webp') no-repeat center center/cover;
-            }
-        </style> 
+        <link rel="preload" as="image" href="/assets/covers/corney.webp">
         <link rel="preload" as="style" href="/styles/sub.css">
         <link rel="preload" as="font" href="/assets/type/ABC_Diatype_Semi-Mono.woff2" type="font/woff2" crossorigin>  
         <title>State of the Union - Max Sheridan</title>    
@@ -20,7 +16,7 @@
     <body>
         <main>
             <div id="state-of-the-union" class="page">
-                <div class="cover">            
+                <div class="cover" style="background: url('/assets/covers/corney.webp') no-repeat center center/cover;">           
                 </div> 
                 <div class="text">
                     <div class="text-inner">
